@@ -1,0 +1,119 @@
+.list-gallery ul.ul-gallery {
+	list-style: none;
+	padding: 0;
+	margin:0;
+} 
+.list-gallery ul.ul-gallery > li {
+	width: 80px;
+    float: left;
+    cursor: move;
+    border: 1px solid #d5d5d5;
+    margin: 9px 9px 0 0;
+    background: #f7f7f7;
+    border-radius: 2px;
+    position: relative;
+    box-sizing: border-box; 
+}
+.list-gallery ul.ul-gallery >li img {
+	width: 100%;
+	height: auto;
+}
+.list-gallery ul ul.actions {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    padding: 2px;
+    display: none;
+}
+.list-gallery ul li:hover .actions {
+	display: block;
+}
+.list-gallery ul ul.actions li {
+    float: right;
+    margin: 0 0 0 2px;
+}
+.list-gallery ul ul.actions li a.delete {
+    display: block;
+    text-indent: -9999px;
+    position: relative;
+    height: 1em;
+    width: 1em;
+    font-size: 1.4em;
+}
+.list-gallery ul ul.actions li a.tips {
+    cursor: pointer;
+}
+.list-gallery ul ul.actions li a {
+    color: #0073aa;
+    transition-property: border,background,color;
+    transition-duration: .05s;
+    transition-timing-function: ease-in-out;
+}
+.list-gallery ul ul.actions li a.delete::before {
+    font-family: Dashicons;
+    speak: none;
+    font-weight: 400;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    text-indent: 0px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    text-align: center;
+    content: "";
+    color: rgb(153, 153, 153);
+    height: 1em;
+    width: 1em;
+    line-height: 1em;
+    font-variant: normal;
+    margin: 0px;
+    background: rgb(255, 255, 255);
+    border-radius: 50%;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after{
+    clear: both;
+}
+.page_item .remove_item.active{
+    display: block;
+}
+
+/*page item while dragging*/
+.ul-gallery .page_item.ui-draggable-dragging,
+.ul-gallery .page_item.ui-sortable-helper {
+    border: solid 1px #aaa;
+    background: #eee;
+}
+
+/*dragging item over droppable zone*/
+.ul-gallery.hover-over-draggable{
+    border: solid 1px #aaa;
+}
+
+/*placeholder text for sorting items*/
+.ul-gallery .my-placeholder{
+    height: 80px;
+    border: dashed 1px #aaa;
+    margin-bottom: 10px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 80px;
+}
+/*placeholder for when hovering over droppable*/
+.ul-gallery .droppable-helper{
+    width: 80px;
+    height: 80px;
+    border: dashed 1px #aaa;
+    margin-bottom: 10px;
+    display: none;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.droppable-helper.active{
+    display: block;
+}

@@ -1,0 +1,45 @@
+2020-09-01T11:12:36+00:00 CRITICAL Uncaught Error: Call to undefined function echoget_field() in C:\xampp\htdocs\carter\wp-content\themes\hatazu_water\layouts\block-banner.php:8
+Stack trace:
+#0 C:\xampp\htdocs\carter\wp-includes\template.php(732): require()
+#1 C:\xampp\htdocs\carter\wp-includes\template.php(676): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\carter\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\carter\wp-content\themes\hatazu_water\page-template.php(17): get_template_part('layouts/block-b...')
+#4 C:\xampp\htdocs\carter\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\carter\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\carter\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\carter\wp-content\themes\hatazu_water\layouts\block-banner.php on line 8
+
+2020-09-01T13:52:59+00:00 CRITICAL Uncaught Error: Call to undefined function form_comment() in C:\xampp\htdocs\carter\wp-content\themes\hatazu_water\woocommerce\single-product-reviews.php:75
+Stack trace:
+#0 C:\xampp\htdocs\carter\wp-includes\comment-template.php(1539): require()
+#1 C:\xampp\htdocs\carter\wp-content\themes\hatazu_water\woocommerce\single-product\tabs\tabs.php(48): comments_template('reviews', Array)
+#2 C:\xampp\htdocs\carter\wp-content\plugins\woocommerce\includes\wc-core-functions.php(344): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\carter\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1538): wc_get_template('single-product/...')
+#4 C:\xampp\htdocs\carter\wp-includes\class-wp-hook.php(287): woocommerce_output_product_data_tabs('')
+#5 C:\xampp\htdocs\carter\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#6 C:\xampp\htdocs\carter\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\carter\wp-content\themes\hatazu_water\woocommerce\content-single-product.php( in C:\xampp\htdocs\carter\wp-content\themes\hatazu_water\woocommerce\single-product-reviews.php on line 75
+
+2020-09-01T13:53:36+00:00 CRITICAL Uncaught Error: Call to undefined function form_comment() in C:\xampp\htdocs\carter\wp-content\themes\hatazu_water\woocommerce\single-product-reviews.php:75
+Stack trace:
+#0 C:\xampp\htdocs\carter\wp-includes\comment-template.php(1539): require()
+#1 C:\xampp\htdocs\carter\wp-content\themes\hatazu_water\woocommerce\single-product\tabs\tabs.php(48): comments_template('reviews', Array)
+#2 C:\xampp\htdocs\carter\wp-content\plugins\woocommerce\includes\wc-core-functions.php(344): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\carter\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1538): wc_get_template('single-product/...')
+#4 C:\xampp\htdocs\carter\wp-includes\class-wp-hook.php(287): woocommerce_output_product_data_tabs('')
+#5 C:\xampp\htdocs\carter\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#6 C:\xampp\htdocs\carter\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\carter\wp-content\themes\hatazu_water\woocommerce\content-single-product.php( in C:\xampp\htdocs\carter\wp-content\themes\hatazu_water\woocommerce\single-product-reviews.php on line 75
+
+2020-09-01T13:53:50+00:00 CRITICAL Uncaught Error: Call to undefined function form_comment() in C:\xampp\htdocs\carter\wp-content\themes\hatazu_water\woocommerce\single-product-reviews.php:75
+Stack trace:
+#0 C:\xampp\htdocs\carter\wp-includes\comment-template.php(1539): require()
+#1 C:\xampp\htdocs\carter\wp-content\themes\hatazu_water\woocommerce\single-product\tabs\tabs.php(48): comments_template('reviews', Array)
+#2 C:\xampp\htdocs\carter\wp-content\plugins\woocommerce\includes\wc-core-functions.php(344): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\carter\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1538): wc_get_template('single-product/...')
+#4 C:\xampp\htdocs\carter\wp-includes\class-wp-hook.php(287): woocommerce_output_product_data_tabs('')
+#5 C:\xampp\htdocs\carter\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#6 C:\xampp\htdocs\carter\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\carter\wp-content\themes\hatazu_water\woocommerce\content-single-product.php( in C:\xampp\htdocs\carter\wp-content\themes\hatazu_water\woocommerce\single-product-reviews.php on line 75
+

@@ -1,0 +1,5 @@
+.attribute .form-table tr,
+.attribute .form-table tr td,
+.attribute .form-table tr td input {
+	width: 100%;
+}

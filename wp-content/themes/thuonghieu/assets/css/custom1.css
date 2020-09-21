@@ -1,0 +1,124 @@
+.whychoose {
+
+    background: #f7f7f7;
+
+    padding: 60px 0;
+
+}
+
+.whychoose .copy {
+
+    width: 100%;
+
+    float: left;
+    padding-bottom: 25px;
+
+}
+.whychoose .copy h2.title {
+	color: #624933;
+	font-weight: bold; 
+}
+.whychoose .copy p {
+	font-size: 14px;
+}
+.whychoose .crsPartner {
+
+    width: 100%;
+
+    float: right;
+
+    padding-top: 0px;
+
+    opacity: 0.9;
+
+}
+.video-bg {
+	position: relative;
+	padding-top: 3%;
+    padding-bottom: 5%;
+}
+.video-bg .contentwraps {
+	padding-left: 80%;
+    position: relative;
+    width: 100%;
+}
+.video-bg .infoCates {
+    width: 75%;
+    position: absolute;
+    left: 0;
+    top: 0%;
+}
+.video-bg .listCateHomes {
+    width: 60%;
+}
+.video-bg .listCateHomes li .desc-thumb img {
+    width: 100%;
+    height: auto;
+}
+.quiz-test {
+    position: relative;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.video-home {
+     position: relative;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.video-home.partnerWrap .copy {
+    width: 30%;
+    float: left;
+}
+.video-home.partnerWrap .crsPartner {
+    width: 65%;
+    float: right;
+    padding-top: 0px;
+    opacity: 1;
+}
+.video-home .copy .list-video {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.video-home .copy .list-video li {
+    padding: 5px;
+}
+.video-home .copy .list-video a{
+    color: #424d54;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
+.video-youtube {
+    position: relative;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.video-youtube .ir-homepage-l .date img {
+    width: 100%;
+    height: auto;
+}
+@media (max-width: 768px) {
+    .form-contact {
+        padding-bottom: 25px;
+        background: #FFED8C;
+    }
+    .dragMouse {
+        text-align: center;
+        display: none;
+        margin-top: 60px;
+    }
+    .title2 {
+        text-transform: uppercase;
+        color: #111;
+        font-size: 18px;
+        font-weight: 600;
+        font-family: 'Open Sans', sans-serif;
+        padding-bottom: 10px;
+        border-bottom: 2px solid #ededed;
+        position: relative;
+        margin-bottom: 15px;
+    }
+}
+.whychoose .crsPartner .desc p {
+    font-size: 14px;
+}

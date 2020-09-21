@@ -1,0 +1,208 @@
+
+/*consultant form*/
+.modal-consultant-form .modal-consult {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 9999; /* Sit on top */
+    left: 0;
+    top: 0%;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-consultant-form .modal-content-consult {
+	text-align: center;
+    /*background-image: url(../images/nen-frm2.jpg);*/
+    background: rgba(1,109,182);
+    margin: 15% auto; 
+    padding: 20px 35px;
+    border: 1px solid #888;
+    max-width: 450px;
+   -webkit-border-radius: 5px; 
+   -moz-border-radius: 5px; 
+   border-radius: 5px;  
+}
+.modal-consultant-form .modal-content-consult h2 {
+	font-size: 18px;
+	font-weight: 600px;
+	color: #fff;
+	text-transform: uppercase;
+}
+.modal-consultant-form .modal-content-consult h3 {
+	font-size: 16px;
+	font-weight: 600px;
+	color: #451511;
+}
+.modal-consultant-form .modal-content-consult p {
+	font-size: 14px;
+	font-weight: 500px;
+	color: #451511;
+}
+.modal-consultant-form .modal-content-consult .area-btn .btn {
+	padding: 3px 25px;
+}
+.modal-consultant-form .frm-register .register {
+	position: relative;
+	padding: 5px 10px;
+}
+.modal-consultant-form .frm-register .register h2 {
+	text-transform: uppercase;
+}
+.modal-consultant-form .frm-register .register .logo {
+	max-width: 200px;
+	height: auto;
+}
+.modal-consultant-form .input-group-consult select.form-control-consult,
+.modal-consultant-form .frm-register .input-group-consult {
+	width: 100%;
+	padding:3px 5px;
+	text-align: left;
+}
+.modal-consultant-form .input-group-consult.capture {
+	text-align: center;
+}
+.modal-consultant-form textarea
+{
+  border:1px solid #999999;
+  width:100%;
+  margin:5px 0;
+  padding:3px;
+}
+.modal-consultant-form .input-group-consult .btn-register {
+	width: 100%;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 400;
+	text-align: center;
+	background: #005d9c;
+	-webkit-border-radius: 5px; 
+   -moz-border-radius: 5px; 
+   border-radius: 5px; 
+}
+.modal-consultant-form .frm-register .input-group-consult input.form-control-consult{
+	width: 100%;
+	padding:3px 5px;
+	margin: 5px 0px;
+	-webkit-border-radius: 5px; 
+   -moz-border-radius: 5px; 
+   border-radius: 5px;
+   border: 1px solid #EAD868;
+}
+/* The Close Button */
+.modal-consultant-form .modal-content-consult .close {
+    color: #000;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    z-index: 0;
+    top: -20px;
+    right: -10px;
+    position: relative;
+    background: transparent;
+}
+
+.modal-consultant-form .modal-content-consult .close:hover,
+.modal-consultant-form .modal-content-consult .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.modal-consultant-form .modal-content-consult .loading {
+	max-width: 20px;
+	max-height: 20px;
+}
+}
+canvas {
+	width: 100% !important;
+	height: auto !important;
+}
+@media (max-width: 768px) {
+	.modal-consultant-form .modal-content-consult {
+	    background-image: url(../images/nen-frm2.jpg);
+	    margin: 15% auto; /* 15% from the top and centered */
+	    padding: 20px;
+	    border: 1px solid #888;
+	    width: 100%; /* Could be more or less, depending on screen size */
+	}
+}
+#box-link {
+
+    position: fixed;
+
+    right: 0px;
+
+    top: 30%;
+
+    /* transform: translate3d(0,0,0); */
+
+    /* -webkit-transform: translate3d(0,0,0); */
+
+    transition: 0.5s;
+
+    z-index: 1000;
+
+    display:none;
+
+}
+
+#box-link ul {
+
+    width:45px;
+
+    margin: 0; 
+
+    padding: 0;
+
+    list-style-type: none;
+
+}
+
+#box-link ul li{
+
+    padding: 5px 0px;
+
+    background-color: #016db6;
+
+    border: 1px solid #D5D5D5;
+
+    text-align: center;
+
+    opacity: 0.9;
+
+}
+
+#box-link ul li .fa{
+
+    color: #fff;
+    font-size: 24px;
+
+}
+
+#box-link ul li a {
+
+    text-decoration: none;
+
+    color: #DDB519;    
+
+    display:block;
+
+    font-size: 12px;
+
+    font-weight: 300;
+
+}
+
+
+#box-link ul li:hover,
+
+#box-link ul li a:hover, #box-link ul li .current {
+
+    color: white;
+
+    background-color: #F7D747;
+
+}
+
