@@ -275,6 +275,10 @@
     margin-left: auto;
     margin-right: auto;
 }
+.haloween-shop .thumb-cate-left img {
+    width: 100%;
+    height: auto;
+}
 @media (max-width: 768px){
 	.haloween-shop .thumb-cate .menu-cate ul li {
     	width: 100%;

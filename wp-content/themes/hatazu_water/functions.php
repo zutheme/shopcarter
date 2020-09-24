@@ -206,7 +206,7 @@ require get_template_directory() . '/inc/action-woocommerce.php';
 function load_scripts_custom() {
     global $post;
     //wp_enqueue_script('main-js', get_template_directory_uri() .'/js/main.js', array(), '0.3.5.9', true );
-    wp_enqueue_style( 'custom-woo.css', get_template_directory_uri() . '/css/custom-woo.css',array(), '0.8.1.0', false);
+    wp_enqueue_style( 'custom-woo.css', get_template_directory_uri() . '/css/custom-woo.css',array(), '0.8.1.1', false);
  //    wp_enqueue_script('library-custom.js', get_template_directory_uri() . '/js/library-custom.js', array(), '0.0.6.5', true );
      wp_enqueue_script('library-api.js', get_template_directory_uri() . '/js/library-api.js', array(), '0.0.4.2', true );   
     if(is_front_page() || is_home()){
