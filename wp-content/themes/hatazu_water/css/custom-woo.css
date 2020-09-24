@@ -237,9 +237,114 @@
 .haloween-shop .thumb-cate .menu-cate {
     padding-top: 35px;
 }
-.haloween-shop .thumb-cate .menu-cate h3 {
-
+.renderer {
+    margin: 0 0 4px 0;
+    display: -webkit-box;
+    max-height: calc(2 * var(--yt-link-line-height, 1.6rem));
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    -webkit-line-clamp: 2;
+    font-size: var(--yt-link-font-size, 1.4rem);
+    font-weight: 500;
+    line-height: var(--ytd-link-line-height, 1.6rem);
+    letter-spacing: var(--yt-link-letter-spacing, normal);
 }
+@media (max-width: 768px){
+    .haloween-shop .thumb-cate .menu-cate h3 {
+        font-size: 14px;
+    }
+    .block-features__list {
+        border: 2px solid #f0f0f0;
+        border-radius: 2px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: block !important;
+    }
+    .block-features--layout--boxed .block-features__item {
+        width: 48% !important;
+        float: left;
+        margin:1%; 
+    }
+    .block-features--layout--boxed .block-features__divider {
+        width: 100%;
+        height: 0px !important;
+    }
+    .block-features--layout--boxed {
+        margin-top: 0px;
+        position: relative;
+        display: block;
+        padding-bottom: 135px;
+    }
+    .haloween-shop .menu-list {
+        width: 100%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .haloween-shop .menu-list ul li a {
+        background: #fff;
+        text-align: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        font-size: 14px;
+        font-weight: 600;
+        color: #444;
+        /* margin: 1px 0px; */
+    }
+    .renderer {
+        margin: 0 0 4px 0;
+        display: -webkit-box;
+        height: calc(2 * var(--yt-link-line-height, 1.6rem));
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: normal;
+        -webkit-line-clamp: 2;
+        font-size: var(--yt-link-font-size, 1.4rem);
+        font-weight: 500;
+        line-height: var(--ytd-link-line-height, 1.6rem);
+        letter-spacing: var(--yt-link-letter-spacing, normal);
+    }
+    .menu-cate p {
+        margin: 0 0 4px 0;
+        display: -webkit-box;
+        height: calc(3 * var(--yt-link-line-height, 1.8rem));
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: normal;
+        -webkit-line-clamp: 3;
+        font-size: var(--yt-link-font-size, 1.2rem);
+        font-weight: 400;
+        line-height: var(--ytd-link-line-height, 1.5rem);
+        letter-spacing: var(--yt-link-letter-spacing, normal);
+    }
+    .match .thumb-cate .menu-cate ul li {
+        width: 100% !important;
+        padding: 0px;
+        float: left;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        background: #fff;
+        border-radius: 3px;
+        text-align: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        padding: 5px 5px 5px 5px;
+        font-weight: 500;
+        color: #444;
+        border: 1px solid #444;
+        background: 0 0;
+        font-size: 14px;
+    }
+}
+
 .haloween-shop .thumb-cate .menu-cate ul {
     list-style: none;
     padding: 0px;
@@ -300,6 +405,14 @@
     margin-left: auto;
     margin-right: auto;
 }
+@media (max-width: 768px){
+    .match .thumb-cate .menu-cate .cate {
+        width: 100%;
+        margin-top: 15px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
 .match .thumb-cate .menu-cate ul li {
     width: 30%;
     padding: 0px;
@@ -347,8 +460,9 @@
     position: relative;
     background: #F03327;
     width: 100%;
-    height: 475px;
+    height: 100%;
     padding-top: 10%;
+    padding-bottom: 9%;
 }
 
 .skip-hop .thumb-cate-right img {
@@ -425,4 +539,8 @@
     height: 100%;
     -o-object-fit: scale-down;
     object-fit: scale-down;
+}
+.mobile-header__logo img {
+    width: 100%;
+    height: auto;
 }

@@ -46,6 +46,9 @@ if ( ! function_exists( 'hatazu_water_setup' ) ) :
 		// This theme uses wp_nav_menu() in one location.
 		register_nav_menus( array(
 			'menu-1' => esc_html__( 'Primary', 'hatazu_water' ),
+			'footer-1' => esc_html__( 'footer 1', 'hatazu_water' ),
+			'footer-2' => esc_html__( 'footer 2', 'hatazu_water' ),
+			'footer-3' => esc_html__( 'footer 3', 'hatazu_water' ),
 		) );
 
 		/*
@@ -206,7 +209,7 @@ require get_template_directory() . '/inc/action-woocommerce.php';
 function load_scripts_custom() {
     global $post;
     //wp_enqueue_script('main-js', get_template_directory_uri() .'/js/main.js', array(), '0.3.5.9', true );
-    wp_enqueue_style( 'custom-woo.css', get_template_directory_uri() . '/css/custom-woo.css',array(), '0.8.1.1', false);
+    wp_enqueue_style( 'custom-woo.css', get_template_directory_uri() . '/css/custom-woo.css',array(), '0.8.4.0', false);
  //    wp_enqueue_script('library-custom.js', get_template_directory_uri() . '/js/library-custom.js', array(), '0.0.6.5', true );
      wp_enqueue_script('library-api.js', get_template_directory_uri() . '/js/library-api.js', array(), '0.0.4.2', true );   
     if(is_front_page() || is_home()){

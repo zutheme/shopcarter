@@ -634,40 +634,26 @@ if( function_exists('acf_add_local_field_group') ) {
 			 /*tab trang lien he*/
 				
 			  array (
-					'key'   		=> 'contact_form_general',
-					'label' 		=> __( 'Trang lien he', 'htz' ),
-					'name'  		=> 'contact_form_general',
+					'key'   		=> 'carousel',
+					'label' 		=> __( 'chuyen muc san pham', 'htz' ),
+					'name'  		=> 'carousel',
 					'type'  		=> 'tab',
 					'placement' 	=> 'left',
 				),
 				array (
-					'key'   		=> 'contact_form_header_html',
-					'label' 		=> __( 'Tieu de', 'htz' ),
-					'name'  		=> 'contact_form_header_html',
-					'type'  		=> 'textarea',
+					'key'   		=> 'carousel_header1',
+					'label' 		=> __( 'Chuyen muc 1', 'htz' ),
+					'name'  		=> 'carousel_header1',
+					'type'  		=> 'text',
 				), 
 				array (
-					'key'   		=> 'contact_form_address',
-					'label' 		=> __( 'Dia chi', 'htz' ),
-					'name'  		=> 'contact_form_address',
-					'type'  		=> 'textarea',
+					'key'   		=> 'carousel_header2',
+					'label' 		=> __( 'Chuyen muc 2', 'htz' ),
+					'name'  		=> 'carousel_header2',
+					'type'  		=> 'text',
 				 
 				),
-				array (
-					'key'   		=> 'contact_form_phone',
-					'label' 		=> __( 'Phone', 'htz' ),
-					'name'  		=> 'contact_form_phone',
-					'type'  		=> 'textarea',
-				 
-				),
-				array (
-					'key'   		=> 'contact_form_email',
-					'label' 		=> __( 'email', 'htz' ),
-					'name'  		=> 'contact_form_email',
-					'type'  		=> 'textarea',
-				 
-				),
-			
+				
 			/*Footer*/
 			array (
 				'key'   		=> 'tab_footer',
@@ -683,82 +669,88 @@ if( function_exists('acf_add_local_field_group') ) {
 				'name'  		=> 'footer_logo',
 				'type'  		=> 'image',	
 			), 
+		 	 array (
+				'key'   		=> 'footer_header',
+				'label' 		=> __( 'tieu de', 'htz' ),
+				'name'  		=> 'footer_header',
+				'type'  		=> 'text',	
+			), 
 		  	array (
-				'key'   		=> 'description_slogan',
+				'key'   		=> 'footer_desc',
 				'label' 		=> __( 'Mo ta van tat', 'htz' ),
-				'name'  		=> 'description_slogan',
+				'name'  		=> 'footer_desc',
 				'type'  		=> 'textarea',	
 			), 
 		    array (
-				'key'   		=> 'formlienhe',
-				'label' 		=> __( 'Chi tiết liên hệ', 'htz' ),
-				'name'  		=> 'detail_contact',
+				'key'   		=> 'footer_address',
+				'label' 		=> __( 'dia chi', 'htz' ),
+				'name'  		=> 'footer_address',
 				'type'  		=> 'textarea',	
 			), 
-		  
-				array (
-				'key'   		=> 'address_contact',
-				'label' 		=> __( 'Địa chỉ', 'htz' ),
-				'name'  		=> '_address',
+			array (
+				'key'   		=> 'footer_email',
+				'label' 		=> __( 'email', 'htz' ),
+				'name'  		=> 'footer_email',
 				'type'  		=> 'text',	
 			), 
-		 
 		 	array (
-				'key'   		=> 'email_contact',
-				'label' 		=> __( 'Email', 'htz' ),
-				'name'  		=> '_email',
+				'key'   		=> 'footer_phone',
+				'label' 		=> __( 'dien thoai', 'htz' ),
+				'name'  		=> 'footer_phone',
 				'type'  		=> 'text',	
 			), 
 		 
 		    array (
-				'key'   		=> 'phone_contact',
-				'label' 		=> __( 'Thông tin liên hệ', 'htz' ),
-				'name'  		=> '_phone',
+				'key'   		=> 'footer_time',
+				'label' 		=> __( 'Thoi gian lam viec', 'htz' ),
+				'name'  		=> 'footer_time',
 				'type'  		=> 'text',	
 			), 
 		  
-		    array (
-				'key'   		=> 'time_work',
-				'label' 		=> __( 'Thời gian làm việc', 'htz' ),
-				'name'  		=> '_time_work',
-				'type'  		=> 'text',	
-			), 
-		  	
-
 		   
-		  
 		   array (
-				'key'   		=> 'social',
-				'label' 		=> __( 'Nội dung kết nối', 'htz' ),
-				'name'  		=> '_social',
-				'type'  		=> 'textarea',	
+				'key'   		=> 'footer_column1',
+				'label' 		=> __( 'tieu de 1', 'htz' ),
+				'name'  		=> 'footer_column1',
+				'type'  		=> 'text',	
 			), 
-		  
+		  	array (
+				'key'   		=> 'footer_column2',
+				'label' 		=> __( 'tieu de 2', 'htz' ),
+				'name'  		=> 'footer_column2',
+				'type'  		=> 'text',	
+			), 
+			array (
+				'key'   		=> 'footer_column3',
+				'label' 		=> __( 'tieu de 3', 'htz' ),
+				'name'  		=> 'footer_column3',
+				'type'  		=> 'text',	
+			), 
 		  	 array (
-				'key'   		=> 'fanpage_facebook',
+				'key'   		=> 'footer_facebook',
 				'label' 		=> __( 'Fanpage', 'htz' ),
-				'name'  		=> '_fanpage',
+				'name'  		=> 'footer_facebook',
 				'type'  		=> 'text',	
 			), 
 		  
 		    array (
-				'key'   		=> 'youtube_chanel',
+				'key'   		=> 'footer_youtube',
 				'label' 		=> __( 'Kênh youtube', 'htz' ),
-				'name'  		=> '_youtube_chanel',
+				'name'  		=> 'footer_youtube',
 				'type'  		=> 'text',	
 			), 
 		  
 		  
 		   array (
-				'key'   		=> 'twiter',
+				'key'   		=> 'footer_twiter',
 				'label' 		=> __( 'Twiter', 'htz' ),
-				'name'  		=> '_twiter',
+				'name'  		=> 'footer_twiter',
 				'type'  		=> 'text',	
 			), 
 		   array (
-				'key'   		=> 'intergram',
+				'key'   		=> 'footer_intagram',
 				'label' 		=> __( 'Intergram', 'htz' ),
-				'name'  		=> '_intergram',
+				'name'  		=> 'footer_intagram',
 				'type'  		=> 'text',	
 			), 
 

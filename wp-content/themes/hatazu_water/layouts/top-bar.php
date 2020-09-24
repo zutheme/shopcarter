@@ -45,24 +45,10 @@
                 </div>
             </div>
             <div class="topbar__item">
-                <div class="topbar-dropdown">
-                    <button class="topbar-dropdown__btn" type="button">
-                        Tiền tệ: <span class="topbar__item-value">VNĐ</span>
-                        <svg width="7px" height="5px">
-                            <use xlink:href="<?php echo get_template_directory_uri()  . '/images/sprite.svg'; ?>#arrow-rounded-down-7x5"></use>
-                        </svg>
-                    </button>
-                </div>
+                
             </div>
             <div class="topbar__item">
-                <div class="topbar-dropdown">
-                    <button class="topbar-dropdown__btn" type="button">
-                        19001768<span class="topbar__item-value"> Gọi</span>
-                        <svg width="7px" height="5px">
-                            <use xlink:href="<?php echo get_template_directory_uri()  . '/images/sprite.svg'; ?>#fi-24-hours-48"></use>
-                        </svg>
-                    </button>
-                </div>
+                
             </div>
         </div>
     </div>

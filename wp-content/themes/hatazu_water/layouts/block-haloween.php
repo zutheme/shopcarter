@@ -23,7 +23,7 @@
                  <div class="col-4 thumb-cate text-center">
                     <a href="<?php echo $value['litte_header_link']; ?>"><img src="<?php echo $value['litte_header_image']['url']; ?>"></a>
                     <div class="menu-cate">
-                        <h3><?php echo $value['litte_header_text']; ?></h3>
+                        <h3 class="renderer"><?php echo $value['litte_header_text']; ?></h3>
                         <div class="cate">
                             <ul>
                                 <li><a href="<?php echo $value['litte_header_link1']; ?>"><?php echo $value['litte_header_text1']; ?></a></li>

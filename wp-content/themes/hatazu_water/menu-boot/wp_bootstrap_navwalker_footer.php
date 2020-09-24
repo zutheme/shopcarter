@@ -112,7 +112,7 @@ class wp_bootstrap_navwalker_footer extends Walker_Nav_Menu {
 				//$atts['aria-haspopup']	= 'true';
 			} else {
 				$atts['href'] = ! empty( $item->url ) ? $item->url : '';
-				//$atts['class']			= 'submenu-link';
+				$atts['class']			= 'footer-links__item';
 			}
 
 			$atts = apply_filters( 'nav_menu_link_attributes', $atts, $item, $args );

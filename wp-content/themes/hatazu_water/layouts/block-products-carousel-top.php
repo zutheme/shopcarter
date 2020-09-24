@@ -3,7 +3,7 @@
 <div class="container">
     <div class="row">
         <div class="col-12 head text-center">
-            <h3>Others like you bought these</h3>
+            <h3><?php echo get_field('carousel_header1','customizer'); ?></h3>
         </div>
     </div>
 <div class="block-header">

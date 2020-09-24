@@ -22,4 +22,5 @@ get_template_part('layouts/block-feature-middle');
 get_template_part('layouts/block-skip-hop');
 get_template_part('layouts/block-response');
 get_template_part('layouts/block-products-carousel-top');
+get_template_part('layouts/block-products-carousel-bottom');
 get_footer(); 
