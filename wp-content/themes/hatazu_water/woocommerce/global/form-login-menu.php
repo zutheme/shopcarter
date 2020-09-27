@@ -19,9 +19,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
 }
 
-//if ( is_user_logged_in() ) {
-	//return;
-//}
+if ( is_user_logged_in() ) {
+	return;
+}
 ?>
 
 	<form class="account-menu__form" method="post" <?php echo ( $hidden ) ? 'style="display:none;"' : ''; ?>>
