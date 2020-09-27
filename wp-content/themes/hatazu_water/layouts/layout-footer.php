@@ -6,8 +6,8 @@
 <div class="container">
 <div class="site-footer__widgets">
 <div class="row">
-<div class="col-md-3 col-lg-3">
-	<div class="site-footer__widget footer-contacts">
+<div class="col-md-3 col-lg-3 text-left">
+	<div class="site-footer__widget footer-contacts text-left">
 		
 		<h5 class="footer-contacts__title"><?php echo get_field('footer_header','customizer'); ?></h5>
 		<div class="footer-contacts__text"><?php echo get_field('footer_desc','customizer'); ?></div>
@@ -19,7 +19,7 @@
 		</ul> 
 	</div>
 </div>
-<div class="col-md-3 col-lg-3">
+<div class="col-md-3 col-lg-3 text-left">
 	<div class="site-footer__widget footer-links">
 		<h5 class="footer-links__title"><?php echo get_field('footer_column1','customizer'); ?></h5>
 		<?php
@@ -51,7 +51,7 @@
                 ?>  
 	</div>
 </div>
-<div class="col-md-3 col-lg-3">
+<div class="col-md-3 col-lg-3 text-left">
 	<div class="site-footer__widget footer-links">
 	<h5 class="footer-links__title"><?php echo get_field('footer_column2','customizer'); ?></h5>
 	<?php
@@ -83,7 +83,7 @@
                 ?>  
 	</div>
 </div>
-<div class="col-md-3 col-lg-3">
+<div class="col-md-3 col-lg-3 text-left">
 <div class="site-footer__widget footer-newsletter">
 <h5 class="footer-newsletter__title"><?php echo get_field('footer_column3','customizer'); ?></h5>
 
