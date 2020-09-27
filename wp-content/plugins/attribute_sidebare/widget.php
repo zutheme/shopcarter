@@ -32,7 +32,7 @@ class htz_attributes extends WP_Widget  {
                         </svg>
                     </button>
                     <div class="filter__body" data-collapse-content>
-                        <?php echo $attribute_name; ?>
+                        <?php //echo $attribute_name; ?>
                         <div class="filter__container">
                             <div class="filter-color">
                                 <div class="filter-color__list">    
