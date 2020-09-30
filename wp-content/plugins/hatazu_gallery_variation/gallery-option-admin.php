@@ -11,12 +11,11 @@
 
 	    <table class="form-table">
 	    	<tr><td>
-	    	<?php $_sync = $_POST['sync_gallery'];
-	    	 ?>	
+	    	<?php //$_sync = $_POST['sync_gallery']; ?>	
 	    	</td></tr>
 	        <tr valign="top">
 	        <th scope="row">* synchronize url gallery *</th>
-	        <td><input type="hidden" name="sync_gallery" value="1" /></td>
+	       <!--  <td><input type="hidden" name="sync_gal" value="1" /></td> -->
 	        <td><input type="submit" name="sync-gallery" value="sync gallery" /></td>
 
 	        </tr>
@@ -28,7 +27,8 @@
 
 	</div>
 <?php 
-	if(isset($_POST['sync-gallery']) && intval($_sync) > 0 ){
+	//if(isset($_POST['sync-gallery']) && intval($_sync) > 0 ){
+	if(isset($_POST['sync-gallery'])){
 		$rep = get_home_url().'/wp-content';
 		$pat = 'http(.*?)\/wp-content';
 		global $wpdb;
