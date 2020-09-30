@@ -42,6 +42,7 @@
 		if(!$wpdb->show_errors()){
 			echo '<h4>Synchronizing Success</h4>';
 		}
+		echo $pat;
 	}else {
 		echo "updating has problem";
 	}
