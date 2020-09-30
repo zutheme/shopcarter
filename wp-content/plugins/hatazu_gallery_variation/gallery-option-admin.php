@@ -33,7 +33,7 @@
 		$pat = 'http(.*?)\/wp-content';
 		global $wpdb;
 		$wpdb->query( $wpdb->prepare(
-		    "UPDATE wp_postmeta SET meta_value = REGEXP_REPLACE(meta_value, %s, %s) WHERE meta_key='gallery'",
+		    "UPDATE wp_postmeta SET meta_value = REPLACE(meta_value, %s, %s) WHERE meta_key='gallery'",
 		    array(
 		        $pat,
 		        $rep
