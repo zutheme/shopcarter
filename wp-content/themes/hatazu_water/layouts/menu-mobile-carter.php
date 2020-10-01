@@ -60,7 +60,7 @@
                                             <svg width="20px" height="20px">
                                                 <use xlink:href="<?php echo get_template_directory_uri()  . '/images/sprite.svg'; ?>#cart-20"></use>
                                             </svg>
-                                            <span class="indicator__value">3</span>
+                                            <span class="indicator__value">0</span>
                                         </span>
                                     </a>
                                 </div>
