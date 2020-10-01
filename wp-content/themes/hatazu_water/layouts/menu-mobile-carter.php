@@ -55,7 +55,7 @@
                                     </a> -->
                                 </div>
                                 <div class="indicator indicator--mobile">
-                                    <a href="cart.html" class="indicator__button">
+                                    <a href="javascript:void(0);" class="indicator__button">
                                         <span class="indicator__area">
                                             <svg width="20px" height="20px">
                                                 <use xlink:href="<?php echo get_template_directory_uri()  . '/images/sprite.svg'; ?>#cart-20"></use>
