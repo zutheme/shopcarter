@@ -16,39 +16,11 @@
             
            
             <div class="topbar__spring"></div>
-            <div class="topbar__item">
-                <div class="topbar-dropdown">
-                 <?php  if ( !is_user_logged_in() ) { ?>
-                     <button class="topbar-dropdown__btn" type="button">
-                        Đăng nhập
-                        <svg width="7px" height="5px">
-                            <use xlink:href="<?php echo get_template_directory_uri()  . '/images/sprite.svg'; ?>#arrow-rounded-down-7x5"></use>
-                        </svg>
-                    </button>
-                  <?php  } else {
-                      $user = wp_get_current_user(); ?>
-                      <button class="topbar-dropdown__btn" type="button">
-                       <?php echo esc_attr( $user->display_name ); ?>
-                        <svg width="7px" height="5px">
-                            <use xlink:href="<?php echo get_template_directory_uri()  . '/images/sprite.svg'; ?>#arrow-rounded-down-7x5"></use>
-                        </svg>
-                    </button>
-                    <div class="topbar-dropdown__body">
-                        <!-- .menu -->
-                        <div class="menu menu--layout--topbar ">
-                            <div class="menu__submenus-container"></div>
-                             <?php wc_get_template( 'myaccount/navigation-menu.php' ); ?>
-                        </div>
-                        <!-- .menu / end -->
-                    </div>
-                    <?php } ?>    
-                </div>
+            <div class="topbar__phone">
+                <a href="tel:0907373875"><i class="fa fa-phone" aria-hidden="true"></i>&nbsp;<?php echo get_field('header_phone1','customizer'); ?></a>
             </div>
-            <div class="topbar__item">
-                
-            </div>
-            <div class="topbar__item">
-                
+             <div class="topbar__phone">
+                <a href="tel:0907373875"><i class="fa fa-phone" aria-hidden="true"></i>&nbsp;<?php echo get_field('header_phone2','customizer'); ?></a>
             </div>
         </div>
     </div>

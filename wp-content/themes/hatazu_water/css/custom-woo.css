@@ -544,3 +544,19 @@
     width: 100%;
     height: auto;
 }
+
+.site-header__nav-panel .nav-panel__logo .logo-img {
+  max-width: 80px;
+  height: auto;
+}
+.topbar__phone {
+    padding: 0px 5px 0px 5px;
+}
+.topbar__phone a {
+    font-weight: 500;
+    font-size: 14px;
+    color: #333;
+}
+.topbar__phone .fa{
+    color: #333;
+}

@@ -1,3 +1,4 @@
+ <?php $logo_image = get_field('logo','customizer'); ?>
  <!-- desktop site__header -->
 <header class="site__header d-lg-block d-none">
     <div class="site-header">
@@ -10,7 +11,7 @@
                 <div class="nav-panel__container container">
                     <div class="nav-panel__row">
                         <div class="nav-panel__logo">
-                            <a href="<?php bloginfo('url'); ?>"><img width="140px" height="37px" src="<?php echo get_template_directory_uri()  . '/images/logos/logo-carters.svg'; ?>"></a>
+                            <a href="<?php bloginfo('url'); ?>"><img class="logo-img" src="<?php echo $logo_image['url']; ?>"></a>
                         </div>
                        <!-- .nav-links -->
 						<?php get_template_part('layouts/nav-link'); ?>
@@ -20,11 +21,11 @@
                   			<div class="indicator indicator--trigger--click">
 						        <button type="button" class="indicator__button">
 						            <span class="indicator__area">
-						                <svg class="indicator__icon" width="20px" height="20px">
-						                    <use xlink:href="<?php echo get_template_directory_uri()  . '/images/sprite.svg'; ?>'; ?>#search-20"></use>
-						                </svg>
+						                <svg width="20px" height="20px" >
+						                    <use xlink:href="<?php echo get_template_directory_uri()  . '/images/sprite.svg#search-20'; ?>"></use>
+						                </svg> 
 						                <svg class="indicator__icon indicator__icon--open" width="20px" height="20px">
-						                    <use xlink:href="<?php echo get_template_directory_uri()  . '/images/sprite.svg'; ?>'; ?>#cross-20"></use>
+						                    <use xlink:href="<?php echo get_template_directory_uri()  . '/images/sprite.svg#cross-20'; ?>"></use>
 						                </svg>
 						            </span>
 						        </button>
@@ -52,7 +53,7 @@
                                 <a href="#" class="indicator__button">
                                     <span class="indicator__area">
                                         <svg width="20px" height="20px">
-                                            <use xlink:href="<?php echo get_template_directory_uri()  . '/images/sprite.svg'; ?>'; ?>#person-20"></use>
+                                            <use xlink:href="<?php echo get_template_directory_uri()  . '/images/sprite.svg#person-20'; ?>"></use>
                                         </svg>
                                     </span>
                                 </a>

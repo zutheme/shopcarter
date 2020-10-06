@@ -25,7 +25,7 @@
   <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/vendor/photoswipe/photoswipe.css">
   <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/vendor/photoswipe/default-skin/default-skin.css">
   <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/vendor/select2/css/select2.min.css">
-  <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/css/style.css?v=0.0.0.5">
+  <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/css/style.css?v=0.0.0.6">
   <!-- font - fontawesome -->
   <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/vendor/fontawesome/css/all.min.css">
   <!-- font - stroyka -->
