@@ -582,7 +582,7 @@ function misha_remove_fields( $woo_checkout_fields_array ) {
   // unset( $woo_checkout_fields_array['billing']['billing_first_name'] );
   // unset( $woo_checkout_fields_array['billing']['billing_last_name'] );
   // unset( $woo_checkout_fields_array['billing']['billing_phone'] );
-  // unset( $woo_checkout_fields_array['billing']['billing_email'] );
+  unset( $woo_checkout_fields_array['billing']['billing_email'] );
   // unset( $woo_checkout_fields_array['order']['order_comments'] ); // remove order notes
   // and to remove the billing fields below
   unset( $woo_checkout_fields_array['billing']['billing_company'] ); // remove company field
